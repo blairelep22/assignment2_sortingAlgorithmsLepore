@@ -32,7 +32,7 @@ public class tester {
         }
 
 // uncomment for ksort generation
-        //arr = generateKSorted(arr);
+        arr = generateKSorted(arr);
 
         long startTime = System.nanoTime();
         sa.sorty(arr);

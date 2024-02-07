@@ -6,7 +6,8 @@ public class Performance {
     public static void main(String[] args) throws IOException {
 
         //printwriter "how to" from stack overflow
-        PrintWriter fileOut = new PrintWriter(new FileWriter("hello.txt"));
+        PrintWriter fileOut = new PrintWriter(new FileWriter("ksortedresults"));
+
 
         SortingAlgorithm bubbleSort = new bubbleSort();
         SortingAlgorithm insertionSort = new insertionSort();
